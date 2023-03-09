@@ -1,16 +1,17 @@
 import React from 'react';
 import './App.css';
 
-import Usuarios from './components/Usuarios/Usuarios'
+import Usuarios from './components/Usuario/Usuario';
 
-function App() {
+function App(){
   return (
-    <div className="App">
+    <div className='App'>
       <main>
         <Usuarios />
-      </main>
+          </main>
     </div>
   );
 }
+
 
 export default App;
